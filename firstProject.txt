@@ -1,0 +1,15 @@
+Class SampleCode{
+    int x =5;
+    int y = 10;
+    public int add(){
+       int res=0;
+       res  = x +y;
+       System.out.println("this is sample addition "+res);
+
+    }
+    public static void main(String[] args){
+        SampleCode s = new SampleCode();
+        s.add();
+        
+    }
+}
